@@ -4,7 +4,7 @@
     "packageRules": [
       {
         "matchPackageNames": ["react-native", "react", "react-native-flipper"],
-        "enabled": false
+        "enabled": true
       },
       {
         "automerge": false,
