@@ -1,5 +1,6 @@
 {
  "remediateSettings": {
+"enableRenovate": true,
     
     "packageRules": [
       {
