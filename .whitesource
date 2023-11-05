@@ -1,3 +1,37 @@
 {
+ "remediateSettings": {
+    
+    "packageRules": [
+      {
+        "matchPackageNames": ["react-native", "react", "react-native-flipper"],
+        "enabled": false
+      },
+      {
+        "automerge": false,
+        "matchUpdateTypes": [
+          "major",
+          "minor",
+          "patch",
+          "pin",
+          "pinDigest",
+          "digest"
+        ]
+      },
+      {
+        "matchPackageNames": [
+          "danger",
+          "chance"
+        ],
+        "matchPackagePrefixes": [
+          "eslint",
+          "jest",
+          "@html-eslint",
+          "prettier"
+        ],
+        "labels": ["qyrus-na"],
+        "automerge": false
+      }
+    ]
+  },
   "settingsInheritedFrom": "nataliekenat/whitesource-config@main"
 }
